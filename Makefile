@@ -2,7 +2,7 @@ all:
 #	service
 	rm -rf */ebin/* */*_ebin;
 	rm -rf */applications */glurk_log */logs;
-	rm -rf */src/*.beam *.beam  */test_src/*.beam test_ebin;
+	rm -rf *~ */src/*.beam *.beam  */test_src/*.beam test_ebin;
 	echo Done
 unit_test:
 	rm -rf ebin/* src/*.beam *.beam test_src/*.beam test_ebin;
